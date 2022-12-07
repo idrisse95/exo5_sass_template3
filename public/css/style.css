@@ -5,7 +5,7 @@ body {
 
 #fond {
   background: url(../img/bg.jpg);
-  padding-bottom: 10%;
+  padding-bottom: 1%;
 }
 
 .contain {
@@ -93,6 +93,9 @@ body {
 #tree .flex {
   display: flex;
 }
+#tree .flex .imgTr {
+  width: 50%;
+}
 #tree .flex .txtW {
   width: 50%;
   background-color: white;
@@ -110,10 +113,44 @@ body {
   background-color: #26242c;
   display: flex;
   align-items: center;
+  text-align: end;
 }
 #tree .flex .txtB .titreFw {
   color: white;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 2%;
+}
+
+footer {
+  margin-top: 4%;
+  text-align: center;
+}
+footer .icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+footer .icon div {
+  margin-left: 2%;
+}
+
+@media screen and (max-width: 376px) {
+  #tree .flex {
+    font-size: 20px;
+    margin-top: 4%;
+    display: block;
+  }
+  #tree .flex .imgTr {
+    width: 100%;
+  }
+  #tree .flex .txtW {
+    width: 100%;
+  }
+  #tree .flex .txtB {
+    width: 100%;
+  }
+  #one {
+    font-size: 20px;
+  }
 }
