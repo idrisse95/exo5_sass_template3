@@ -23,3 +23,13 @@ body {
   text-align: center;
   font-weight: 100;
 }
+
+#one {
+  background-color: white;
+  color: #9f9f9f;
+}
+#one .titreO {
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+}
