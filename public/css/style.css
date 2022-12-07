@@ -28,8 +28,29 @@ body {
   background-color: white;
   color: #9f9f9f;
 }
-#one .titreO {
+#one .o {
+  padding: 4% 0;
+}
+#one .o .titreO {
+  text-align: center;
   color: black;
   font-weight: bold;
   font-size: 2em;
+  margin-bottom: 1%;
+}
+#one .o .ligneO {
+  height: 1px;
+  background-color: #9f9f9f;
+  width: 150px;
+  margin: auto;
+}
+#one .o .sousO {
+  margin-top: 1%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#one .txtO {
+  padding: 5%;
+  background-color: rgba(202, 202, 202, 0.1960784314);
 }
