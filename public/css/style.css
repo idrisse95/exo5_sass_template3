@@ -1,4 +1,5 @@
 body {
+  color: #9f9f9f;
   margin: 0;
 }
 
@@ -8,7 +9,7 @@ body {
 }
 
 .contain {
-  margin: 5% 11%;
+  margin: 0 11%;
 }
 
 #titre {
@@ -25,8 +26,8 @@ body {
 }
 
 #one {
+  margin-top: 5%;
   background-color: white;
-  color: #9f9f9f;
 }
 #one .o {
   padding: 4% 0;
@@ -53,4 +54,37 @@ body {
 #one .txtO {
   padding: 5%;
   background-color: rgba(202, 202, 202, 0.1960784314);
+}
+
+#two {
+  background-color: #1c1c1c;
+}
+#two .containT {
+  background-color: #161616;
+}
+#two .containT .t {
+  padding: 3% 0;
+}
+#two .containT .imgT {
+  display: flex;
+}
+#two .containT .titreT {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 1%;
+  color: white;
+}
+#two .containT .sousT {
+  margin-top: 1%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#two .containT .ligneT {
+  height: 1px;
+  background-color: #9f9f9f;
+  width: 150px;
+  margin: auto;
 }
