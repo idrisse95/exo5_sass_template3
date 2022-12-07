@@ -4,9 +4,9 @@ body {
 
 #fond {
   background: url(../img/bg.jpg);
-  height: 100vh;
+  height: 700vh;
 }
 
-#contain {
+.contain {
   margin: 5% 15%;
 }
