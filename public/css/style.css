@@ -153,6 +153,9 @@ footer .icon div {
   #one {
     font-size: 20px;
   }
+  #one .txtO {
+    padding: 5% 4%;
+  }
   #two .containT .imgT {
     display: block;
   }
